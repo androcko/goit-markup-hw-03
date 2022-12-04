@@ -1,0 +1,211 @@
+:root {
+--prymery-band-color: #4D5AE5;
+--dark-brand-color: #2E2F42;
+--text-brand-color: #434455;
+--light-brand-color: #F4F4FD;
+--white-brand-color: #FFFFFF;
+--button-order-active: #404BBF;
+--bg-color: #E7E9FC;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+background-color: var(--white-brand-color)
+color: var(--text-brand-color);
+}
+
+/* logo */
+.logo-type-first {
+    color: var(--prymery-band-color);
+    width: 44px;
+    height: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.logo-type-second {
+    color: var(--dark-brand-color);
+}
+.logo-footer {
+    color: var(--light-brand-color);
+}
+/* tags */
+a {
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+ul {
+    list-style: none;
+}
+
+/* firstpage */
+/* hero */
+.section-hero {
+    background-color: var(--dark-brand-color);
+}
+.hero {
+    width: 500px;
+    color: var(--white-brand-color);
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+}
+/* button */
+.button-order {
+    width: 170px;
+    height: 51px;
+    background-color: var(--prymery-band-color);
+    color: var(--white-brand-color);
+    font-family: inherit;
+    letter-spacing: 0.04em;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.17;
+        cursor: pointer;
+        border-radius: 4px;
+}
+.button-order:hover,
+.button-order:focus {
+background: var(--prymery-band-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.button-order:active {
+background-color: var(--button-order-active);
+}
+
+/* advances */
+
+.advances-h {
+    color: var(--dark-brand-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.advances-text {
+    color: var(--text-brand-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.titlesecond {
+    text-transform: capitalize;
+    color: var(--dark-brand-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+}
+
+/* our team */
+.section-team {
+    background-color: var(--light-brand-color);
+}
+.team-background {
+        width: 264px;
+        height: 380px;
+    background-color: var(--white-brand-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.peoplename {
+    color: var(--dark-brand-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.teamteam {
+    color: var(--text-brand-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* portfolio */
+/* navigation */
+.navigation-link {
+    color: var(--dark-brand-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--text-brand-color);
+} 
+.navigation-link:active {
+    color: var(--prymery-band-color);
+}
+/*adress*/
+.adress .adress-link {
+    color: var(--text-brand-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.adress .adress-link:hover,
+.adress .adress-link:focus {
+    color: var(--prymery-band-color);
+}
+/* button */
+.filter-button {
+    background-color: var(--light-brand-color);
+    color: var(--prymery-band-color);
+    font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor:pointer;
+}
+.filter-button:hover,
+.filter-button:focus,
+.filter-button:active {
+    background-color: var(--prymery-band-color);
+    color: var(--white-brand-color);
+}
+/* portfolio */
+.banking-styles {
+    color: var(--dark-brand-color);
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.app-styles {
+    color: var(--text-brand-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+/* footer */
+.footer-style {
+    background-color: var(--dark-brand-color);
+}
+.bg-style {
+    width: 264px;
+    color: var(--bg-color);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
